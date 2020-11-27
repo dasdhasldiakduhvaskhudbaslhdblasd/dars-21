@@ -1,12 +1,3 @@
-@font-face {
-    font-family: 'Vice';
-    src: url(../fonts/'Vice.woff2') format('woff2'),
-         url(../fonts/'Vice.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 *,
 *::after,
 *::before {
@@ -30,55 +21,6 @@ body {
 	background-color: #F2D539;
 }
 
-.list-style-item {
-	display: flex;
-	justify-content: space-around;
-	list-style-type: none;
-	align-items: center;
-	padding: 0;
-	margin: 0;
-}
-
-.list-item {
-	align-items: center;
-	padding: 8px 25px;
-	font-size: 40px;
-	font-weight: bold;
-	position: relative;
-	border-right: 1px solid black;
-}
-
-.list-style-item:nth-child(7) {
-	border: none;
-}
-
-a {
-	display: inline-block;
-	text-decoration: none;
-}
-
-.list {
-	background-color: #F2D539;
-	position: absolute;
-	list-style-type: none;
-	padding: 0;
-	top: 101%;
-  	left: 0;
-  	text-align: center;
-}
-
-.item {
-	display: none;
-	padding: 8px 20px;
-}
-
-.item:hover {
-	background-color: dodgerblue;
-}
-
-.list-item:hover .item {
-	display: block;
-}
 
 
 
