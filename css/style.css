@@ -47,7 +47,7 @@ label {
 }
 
 .checkbox-sport:checked + .input-controller {
-	background-image: url(/img/table-tennis.png);
+	background-image: url(../img/table-tennis.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
@@ -55,7 +55,7 @@ label {
 }
 
 .checkbox-sport:checked + .basketbol {
-	background-image: url(/img/basketball-ball.png);
+	background-image: url(../img/basketball-ball.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
@@ -63,7 +63,7 @@ label {
 }
 
 .checkbox-sport:checked + .voleybol {
-	background-image: url(/img/volleyball-ball.png);
+	background-image: url(../img/volleyball-ball.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
@@ -71,7 +71,7 @@ label {
 }
 
 .checkbox-sport:checked + .hokkey {
-	background-image: url(/img/hockey-puck.png);
+	background-image: url(../img/hockey-puck.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
@@ -99,7 +99,7 @@ label {
 }
 
 .checkbox-sport:disabled:checked + .hokkey-checked{
-	background-image: url(/img/hockey-puck.png);
+	background-image: url(../img/hockey-puck.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 70%;
